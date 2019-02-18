@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32BEFD0F221AA9B30065FA00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEFD0E221AA9B30065FA00 /* AppDelegate.swift */; };
+		32BEFD11221AA9B30065FA00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEFD10221AA9B30065FA00 /* ViewController.swift */; };
+		32BEFD13221AA9B30065FA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BEFD12221AA9B30065FA00 /* Assets.xcassets */; };
+		32BEFD16221AA9B30065FA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BEFD14221AA9B30065FA00 /* Main.storyboard */; };
+		32BEFD22221AA9B30065FA00 /* PaineitaOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEFD21221AA9B30065FA00 /* PaineitaOnTests.swift */; };
+		32BEFD2D221AA9B40065FA00 /* PaineitaOnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEFD2C221AA9B40065FA00 /* PaineitaOnUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BEFD1E221AA9B30065FA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BEFD03221AA9B30065FA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BEFD0A221AA9B30065FA00;
+			remoteInfo = PaineitaOn;
+		};
+		32BEFD29221AA9B40065FA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BEFD03221AA9B30065FA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BEFD0A221AA9B30065FA00;
+			remoteInfo = PaineitaOn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32BEFD0B221AA9B30065FA00 /* PaineitaOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaineitaOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BEFD0E221AA9B30065FA00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32BEFD10221AA9B30065FA00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32BEFD12221AA9B30065FA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32BEFD15221AA9B30065FA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BEFD17221AA9B30065FA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BEFD18221AA9B30065FA00 /* PaineitaOn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaineitaOn.entitlements; sourceTree = "<group>"; };
+		32BEFD1D221AA9B30065FA00 /* PaineitaOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaineitaOnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BEFD21221AA9B30065FA00 /* PaineitaOnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaineitaOnTests.swift; sourceTree = "<group>"; };
+		32BEFD23221AA9B30065FA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BEFD28221AA9B40065FA00 /* PaineitaOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaineitaOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BEFD2C221AA9B40065FA00 /* PaineitaOnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaineitaOnUITests.swift; sourceTree = "<group>"; };
+		32BEFD2E221AA9B40065FA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BEFD08221AA9B30065FA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BEFD1A221AA9B30065FA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BEFD25221AA9B40065FA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BEFD02221AA9B30065FA00 = {
+			isa = PBXGroup;
+			children = (
+				32BEFD0D221AA9B30065FA00 /* PaineitaOn */,
+				32BEFD20221AA9B30065FA00 /* PaineitaOnTests */,
+				32BEFD2B221AA9B40065FA00 /* PaineitaOnUITests */,
+				32BEFD0C221AA9B30065FA00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32BEFD0C221AA9B30065FA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BEFD0B221AA9B30065FA00 /* PaineitaOn.app */,
+				32BEFD1D221AA9B30065FA00 /* PaineitaOnTests.xctest */,
+				32BEFD28221AA9B40065FA00 /* PaineitaOnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BEFD0D221AA9B30065FA00 /* PaineitaOn */ = {
+			isa = PBXGroup;
+			children = (
+				32BEFD0E221AA9B30065FA00 /* AppDelegate.swift */,
+				32BEFD10221AA9B30065FA00 /* ViewController.swift */,
+				32BEFD12221AA9B30065FA00 /* Assets.xcassets */,
+				32BEFD14221AA9B30065FA00 /* Main.storyboard */,
+				32BEFD17221AA9B30065FA00 /* Info.plist */,
+				32BEFD18221AA9B30065FA00 /* PaineitaOn.entitlements */,
+			);
+			path = PaineitaOn;
+			sourceTree = "<group>";
+		};
+		32BEFD20221AA9B30065FA00 /* PaineitaOnTests */ = {
+			isa = PBXGroup;
+			children = (
+				32BEFD21221AA9B30065FA00 /* PaineitaOnTests.swift */,
+				32BEFD23221AA9B30065FA00 /* Info.plist */,
+			);
+			path = PaineitaOnTests;
+			sourceTree = "<group>";
+		};
+		32BEFD2B221AA9B40065FA00 /* PaineitaOnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32BEFD2C221AA9B40065FA00 /* PaineitaOnUITests.swift */,
+				32BEFD2E221AA9B40065FA00 /* Info.plist */,
+			);
+			path = PaineitaOnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BEFD0A221AA9B30065FA00 /* PaineitaOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BEFD31221AA9B40065FA00 /* Build configuration list for PBXNativeTarget "PaineitaOn" */;
+			buildPhases = (
+				32BEFD07221AA9B30065FA00 /* Sources */,
+				32BEFD08221AA9B30065FA00 /* Frameworks */,
+				32BEFD09221AA9B30065FA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaineitaOn;
+			productName = PaineitaOn;
+			productReference = 32BEFD0B221AA9B30065FA00 /* PaineitaOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BEFD1C221AA9B30065FA00 /* PaineitaOnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BEFD34221AA9B40065FA00 /* Build configuration list for PBXNativeTarget "PaineitaOnTests" */;
+			buildPhases = (
+				32BEFD19221AA9B30065FA00 /* Sources */,
+				32BEFD1A221AA9B30065FA00 /* Frameworks */,
+				32BEFD1B221AA9B30065FA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BEFD1F221AA9B30065FA00 /* PBXTargetDependency */,
+			);
+			name = PaineitaOnTests;
+			productName = PaineitaOnTests;
+			productReference = 32BEFD1D221AA9B30065FA00 /* PaineitaOnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32BEFD27221AA9B40065FA00 /* PaineitaOnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BEFD37221AA9B40065FA00 /* Build configuration list for PBXNativeTarget "PaineitaOnUITests" */;
+			buildPhases = (
+				32BEFD24221AA9B40065FA00 /* Sources */,
+				32BEFD25221AA9B40065FA00 /* Frameworks */,
+				32BEFD26221AA9B40065FA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BEFD2A221AA9B40065FA00 /* PBXTargetDependency */,
+			);
+			name = PaineitaOnUITests;
+			productName = PaineitaOnUITests;
+			productReference = 32BEFD28221AA9B40065FA00 /* PaineitaOnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BEFD03221AA9B30065FA00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tommi Niittymies";
+				TargetAttributes = {
+					32BEFD0A221AA9B30065FA00 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					32BEFD1C221AA9B30065FA00 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 32BEFD0A221AA9B30065FA00;
+					};
+					32BEFD27221AA9B40065FA00 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 32BEFD0A221AA9B30065FA00;
+					};
+				};
+			};
+			buildConfigurationList = 32BEFD06221AA9B30065FA00 /* Build configuration list for PBXProject "PaineitaOn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BEFD02221AA9B30065FA00;
+			productRefGroup = 32BEFD0C221AA9B30065FA00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BEFD0A221AA9B30065FA00 /* PaineitaOn */,
+				32BEFD1C221AA9B30065FA00 /* PaineitaOnTests */,
+				32BEFD27221AA9B40065FA00 /* PaineitaOnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BEFD09221AA9B30065FA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BEFD13221AA9B30065FA00 /* Assets.xcassets in Resources */,
+				32BEFD16221AA9B30065FA00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BEFD1B221AA9B30065FA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BEFD26221AA9B40065FA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BEFD07221AA9B30065FA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BEFD11221AA9B30065FA00 /* ViewController.swift in Sources */,
+				32BEFD0F221AA9B30065FA00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BEFD19221AA9B30065FA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BEFD22221AA9B30065FA00 /* PaineitaOnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BEFD24221AA9B40065FA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BEFD2D221AA9B40065FA00 /* PaineitaOnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32BEFD1F221AA9B30065FA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BEFD0A221AA9B30065FA00 /* PaineitaOn */;
+			targetProxy = 32BEFD1E221AA9B30065FA00 /* PBXContainerItemProxy */;
+		};
+		32BEFD2A221AA9B40065FA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BEFD0A221AA9B30065FA00 /* PaineitaOn */;
+			targetProxy = 32BEFD29221AA9B40065FA00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32BEFD14221AA9B30065FA00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BEFD15221AA9B30065FA00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32BEFD2F221AA9B40065FA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32BEFD30221AA9B40065FA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		32BEFD32221AA9B40065FA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaineitaOn/PaineitaOn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DX6MVQZF5;
+				INFOPLIST_FILE = PaineitaOn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomminiittymies.PaineitaOn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		32BEFD33221AA9B40065FA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaineitaOn/PaineitaOn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DX6MVQZF5;
+				INFOPLIST_FILE = PaineitaOn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomminiittymies.PaineitaOn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		32BEFD35221AA9B40065FA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DX6MVQZF5;
+				INFOPLIST_FILE = PaineitaOnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomminiittymies.PaineitaOnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaineitaOn.app/Contents/MacOS/PaineitaOn";
+			};
+			name = Debug;
+		};
+		32BEFD36221AA9B40065FA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DX6MVQZF5;
+				INFOPLIST_FILE = PaineitaOnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomminiittymies.PaineitaOnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaineitaOn.app/Contents/MacOS/PaineitaOn";
+			};
+			name = Release;
+		};
+		32BEFD38221AA9B40065FA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DX6MVQZF5;
+				INFOPLIST_FILE = PaineitaOnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomminiittymies.PaineitaOnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = PaineitaOn;
+			};
+			name = Debug;
+		};
+		32BEFD39221AA9B40065FA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DX6MVQZF5;
+				INFOPLIST_FILE = PaineitaOnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomminiittymies.PaineitaOnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = PaineitaOn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BEFD06221AA9B30065FA00 /* Build configuration list for PBXProject "PaineitaOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BEFD2F221AA9B40065FA00 /* Debug */,
+				32BEFD30221AA9B40065FA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BEFD31221AA9B40065FA00 /* Build configuration list for PBXNativeTarget "PaineitaOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BEFD32221AA9B40065FA00 /* Debug */,
+				32BEFD33221AA9B40065FA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BEFD34221AA9B40065FA00 /* Build configuration list for PBXNativeTarget "PaineitaOnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BEFD35221AA9B40065FA00 /* Debug */,
+				32BEFD36221AA9B40065FA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BEFD37221AA9B40065FA00 /* Build configuration list for PBXNativeTarget "PaineitaOnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BEFD38221AA9B40065FA00 /* Debug */,
+				32BEFD39221AA9B40065FA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BEFD03221AA9B30065FA00 /* Project object */;
+}
