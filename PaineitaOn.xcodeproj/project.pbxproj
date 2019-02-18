@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329B0115221AAAC900B61E10 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 329B0110221AAAC800B61E10 /* Info.plist */; };
+		329B0116221AAAC900B61E10 /* Mittaukset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B0111221AAAC800B61E10 /* Mittaukset.swift */; };
+		329B0117221AAAC900B61E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B0112221AAAC800B61E10 /* ViewController.swift */; };
+		329B0118221AAAC900B61E10 /* Mittaus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B0113221AAAC900B61E10 /* Mittaus.swift */; };
+		329B0119221AAAC900B61E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B0114221AAAC900B61E10 /* AppDelegate.swift */; };
 		32BEFD0F221AA9B30065FA00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEFD0E221AA9B30065FA00 /* AppDelegate.swift */; };
 		32BEFD11221AA9B30065FA00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEFD10221AA9B30065FA00 /* ViewController.swift */; };
 		32BEFD13221AA9B30065FA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BEFD12221AA9B30065FA00 /* Assets.xcassets */; };
@@ -33,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		329B0110221AAAC800B61E10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Documents/Swift-projektit/Paineita_on/Paineita on!/Info.plist"; sourceTree = "<group>"; };
+		329B0111221AAAC800B61E10 /* Mittaukset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mittaukset.swift; sourceTree = "<group>"; };
+		329B0112221AAAC800B61E10 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Documents/Swift-projektit/Paineita_on/Paineita on!/ViewController.swift"; sourceTree = "<group>"; };
+		329B0113221AAAC900B61E10 /* Mittaus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mittaus.swift; sourceTree = "<group>"; };
+		329B0114221AAAC900B61E10 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Documents/Swift-projektit/Paineita_on/Paineita on!/AppDelegate.swift"; sourceTree = "<group>"; };
 		32BEFD0B221AA9B30065FA00 /* PaineitaOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaineitaOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BEFD0E221AA9B30065FA00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BEFD10221AA9B30065FA00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				32BEFD0E221AA9B30065FA00 /* AppDelegate.swift */,
+				329B0113221AAAC900B61E10 /* Mittaus.swift */,
 				32BEFD10221AA9B30065FA00 /* ViewController.swift */,
+				329B0114221AAAC900B61E10 /* AppDelegate.swift */,
+				329B0110221AAAC800B61E10 /* Info.plist */,
+				329B0111221AAAC800B61E10 /* Mittaukset.swift */,
+				329B0112221AAAC800B61E10 /* ViewController.swift */,
 				32BEFD12221AA9B30065FA00 /* Assets.xcassets */,
 				32BEFD14221AA9B30065FA00 /* Main.storyboard */,
 				32BEFD17221AA9B30065FA00 /* Info.plist */,
@@ -230,6 +245,7 @@
 			files = (
 				32BEFD13221AA9B30065FA00 /* Assets.xcassets in Resources */,
 				32BEFD16221AA9B30065FA00 /* Main.storyboard in Resources */,
+				329B0115221AAAC900B61E10 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329B0119221AAAC900B61E10 /* AppDelegate.swift in Sources */,
+				329B0118221AAAC900B61E10 /* Mittaus.swift in Sources */,
 				32BEFD11221AA9B30065FA00 /* ViewController.swift in Sources */,
+				329B0116221AAAC900B61E10 /* Mittaukset.swift in Sources */,
+				329B0117221AAAC900B61E10 /* ViewController.swift in Sources */,
 				32BEFD0F221AA9B30065FA00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
